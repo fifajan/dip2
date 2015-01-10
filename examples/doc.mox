@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view dimX="70" rotX="0" rotY="45" rotZ="55" scaleMult="0.5500" scale="1" isoMult="0.5500" iso="3" axises="true" mode="faces"/>
+    <field>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="15.000000"/>
+            <var name="dX" value="15.000000"/>
+            <var name="dY" value="15.000000"/>
+            <var name="dZ" value="0.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="15.000000"/>
+            <var name="dX" value="-15.000000"/>
+            <var name="dY" value="-15.000000"/>
+            <var name="dZ" value="0.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="15.000000"/>
+            <var name="dX" value="-15.000000"/>
+            <var name="dY" value="15.000000"/>
+            <var name="dZ" value="-30.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="15.000000"/>
+            <var name="dX" value="15.000000"/>
+            <var name="dY" value="-15.000000"/>
+            <var name="dZ" value="30.000000"/>
+        </meta-object>
+    </field>
+</document>

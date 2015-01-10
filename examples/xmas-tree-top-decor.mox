@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view>
+        <grid dimX="85" dimY="85" dimZ="85" isoMult="0.0100" iso="1"/>
+        <camera rotX="129" rotY="212" rotZ="44" scaleMult="0.2000" scale="2"/>
+        <display axises="false" polygonMode="faces" normalMode="smooth"/>
+        <colors background="#3b0301" light1="#ff1803" light2="#1cff03"/>
+    </view>
+    <field>
+        <meta-object type="expression" value="-k*c/(x^4.000+y^4.000+z^4.000+a*(x^2.000+y^2.000+z^2.000)^2.000+b*(x^2.000+y^2.000+z^2.000))">
+            <var name="a" value="-0.330000"/>
+            <var name="b" value="0.200000"/>
+            <var name="c" value="-3.000000"/>
+            <var name="k" value="100.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="0.170000"/>
+            <var name="dX" value="-40.000000"/>
+            <var name="dY" value="-40.000000"/>
+            <var name="dZ" value="-40.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="0.020000"/>
+            <var name="dX" value="-27.000000"/>
+            <var name="dY" value="-27.000000"/>
+            <var name="dZ" value="-27.000000"/>
+        </meta-object>
+    </field>
+</document>

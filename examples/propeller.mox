@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="крылчатка" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/fifajan/projects/programming/mag-dip/dip2/xml/doc.xsd">
+    <view>
+        <grid dimX="40" dimY="110" dimZ="110" isoMult="0.2000" iso="2"></grid>
+        <camera rotX="9" rotY="0" rotZ="0" scaleMult="0.1900" scale="3"></camera>
+        <display axises="false" polygonMode="faces" normalMode="smooth"></display>
+        <colors background="#0a0a0a" light1="#ff0000" light2="#ff0000"></colors>
+    </view>
+    <field>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="0.000000"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="0.392699"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="0.785398"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="1.178097"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="1.570796"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="1.963495"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="2.356194"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="2.748893"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="3.141592"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="3.534291"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="3.926990"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="4.319689"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="4.712388"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="5.105087"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="5.497786"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"></var>
+            <var name="R" value="7.000000"></var>
+            <var name="a" value="0.550000"></var>
+            <var name="b" value="5.890485"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="14.000000"></var>
+            <var name="kX" value="1.000000"></var>
+            <var name="kY" value="7.000000"></var>
+            <var name="kZ" value="0.50000"></var>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((z-dZ)^2.000+(y-dY)^2.000)">
+            <var name="R" value="1.300000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="0.000000"></var>
+        </meta-object>
+    </field>
+</document>

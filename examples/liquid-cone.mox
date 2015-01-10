@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view>
+        <grid dimX="70" dimY="70" dimZ="70" isoMult="0.2500" iso="8"/>
+        <camera rotX="15" rotY="0" rotZ="0" scaleMult="0.2500" scale="1"/>
+        <display axises="true" polygonMode="faces" normalMode="smooth"/>
+        <colors background="#333366" light1="#bfffff" light2="#bfffff"/>
+    </view>
+    <field>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+y^2.000+z^2.000)">
+            <var name="R" value="70.000000"/>
+            <var name="dX" value="50.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt(z^2.000+y^2.000)">
+            <var name="R" value="10.000000"/>
+        </meta-object>
+    </field>
+</document>

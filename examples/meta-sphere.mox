@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/fifajan/projects/programming/mag-dip/dip2/xml/doc.xsd">
+    <view>
+      <grid dimX="80" dimY="80" dimZ="80" isoMult="0.6500" iso="8"></grid>
+      <camera rotX="3" rotY="0" rotZ="0" scaleMult="0.2500" scale="2"></camera>
+      <display axises="true" polygonMode="faces" normalMode="flat"></display>
+      <colors background="#aabbcc" light1="#ffffff" light2="#00ff00"></colors>
+    </view>
+    <field>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="85.000000"></var>
+            <var name="dX" value="0.000000"></var>
+            <var name="dY" value="0.000000"></var>
+            <var name="dZ" value="0.000000"></var>
+        </meta-object>
+    </field>
+</document>

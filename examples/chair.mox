@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <view>
+      <grid dimX="100" dimY="100" dimZ="100" isoMult="0.2" iso="3"/>
+      <camera rotX="65" rotY="75" rotZ="125" scaleMult="0.2" scale="3"/>
+    </view>
+    <field>
+      <meta-object type="expression" value="R^N / ( kX*(x - dX)^N + kY*(y - dY)^N + kZ*(z - dZ)^N )">
+        <var name="N" value="4"/>
+        <var name="R" value="20"/>
+        <var name="dX" value="-9"/>
+        <var name="dY" value="15"/>
+        <var name="dZ" value="15"/>
+        <var name="kX" value="1"/>
+        <var name="kY" value="1000"/>
+        <var name="kZ" value="1000"/>
+      </meta-object>
+      <meta-object type="expression" value="R^N / ( kX*(x - dX)^N + kY*(y - dY)^N + kZ*(z - dZ)^N )">
+        <var name="N" value="4"/>
+        <var name="R" value="20"/>
+        <var name="dX" value="-9"/>
+        <var name="dY" value="-15"/>
+        <var name="dZ" value="15"/>
+        <var name="kX" value="1"/>
+        <var name="kY" value="1000"/>
+        <var name="kZ" value="1000"/>
+      </meta-object>
+      <meta-object type="expression" value="R^N / ( kX*(x - dX)^N + kY*(y - dY)^N + kZ*(z - dZ)^N )">
+        <var name="N" value="4"/>
+        <var name="R" value="20"/>
+        <var name="dX" value="-9"/>
+        <var name="dY" value="15"/>
+        <var name="dZ" value="-15"/>
+        <var name="kX" value="1"/>
+        <var name="kY" value="1000"/>
+        <var name="kZ" value="1000"/>
+      </meta-object>
+      <meta-object type="expression" value="R^N / ( kX*(x - dX)^N + kY*(y - dY)^N + kZ*(z - dZ)^N )">
+        <var name="N" value="4"/>
+        <var name="R" value="20"/>
+        <var name="dX" value="-9"/>
+        <var name="dY" value="-15"/>
+        <var name="dZ" value="-15"/>
+        <var name="kX" value="1"/>
+        <var name="kY" value="1000"/>
+        <var name="kZ" value="1000"/>
+      </meta-object>
+      <meta-object type="expression" value="R^N / ( kX*(x - dX)^N + kY*(y - dY)^N + kZ*(z - dZ)^N )">
+        <var name="N" value="4"/>
+        <var name="R" value="20"/>
+        <var name="dX" value="19"/>
+        <var name="kX" value="1000"/>
+        <var name="kY" value="1"/>
+        <var name="kZ" value="1"/>
+      </meta-object>
+    </field>
+</document>

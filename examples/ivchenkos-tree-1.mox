@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view>
+        <grid dimX="120" dimY="120" dimZ="120" isoMult="1.0000" iso="8"/>
+        <camera rotX="20" rotY="341" rotZ="338" scaleMult="0.2500" scale="2"/>
+        <display axises="true" polygonMode="faces" normalMode="smooth"/>
+        <colors background="#ffffff" light1="#55aa00" light2="#55aa00"/>
+    </view>
+    <field>
+        <meta-object type="expression" value="R/sqrt(x^2.000+y^2.000)">
+            <var name="R" value="40.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="4.000000"/>
+            <var name="dX" value="4.000000"/>
+            <var name="dY" value="0.000000"/>
+            <var name="dZ" value="-49.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="-3.000000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="1.500000"/>
+            <var name="dZ" value="30.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="-2.000*k*(x-dX)*(y-dY)*(z-dZ)/(((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)^2.000)">
+            <var name="dX" value="27.000000"/>
+            <var name="dY" value="-5.500000"/>
+            <var name="dZ" value="17.000000"/>
+            <var name="k" value="188.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="k*(x-dX)*(y-dY)*(z-dZ)/((y-dY)^2.000*(z-dZ)^2.000+(z-dZ)^2.000*(x-dX)^2.000+(x-dX)^2.000*(y-dY)^2.000)">
+            <var name="dX" value="-34.000000"/>
+            <var name="dY" value="-1.400000"/>
+            <var name="dZ" value="7.000000"/>
+            <var name="k" value="130.500000"/>
+        </meta-object>
+        <meta-object type="expression" value="-k*c/((x-dX)^4.000+(y-dY)^4.000+(z-dZ)^4.000+a*((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)^2.000+b*((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000))">
+            <var name="a" value="-0.327000"/>
+            <var name="b" value="0.200000"/>
+            <var name="c" value="-3.000000"/>
+            <var name="dX" value="-2.000000"/>
+            <var name="dY" value="37.000000"/>
+            <var name="dZ" value="30.000000"/>
+            <var name="k" value="180.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="2.000000"/>
+            <var name="R" value="19.000000"/>
+            <var name="a" value="0.500000"/>
+            <var name="b" value="1.000000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="-20.000000"/>
+            <var name="dZ" value="30.000000"/>
+            <var name="kX" value="4.000000"/>
+            <var name="kY" value="4.000000"/>
+            <var name="kZ" value="1.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kY*(cos(a)*y-sin(a)*(cos(b)*x-sin(b)*z))-dY)^N+(kX*(sin(a)*y+cos(a)*(cos(b)*x-sin(b)*z))-dX)^N+(kZ*(sin(b)*x+cos(b)*z)-dZ)^N)">
+            <var name="N" value="2.000000"/>
+            <var name="R" value="23.000000"/>
+            <var name="a" value="5.400000"/>
+            <var name="b" value="0.900000"/>
+            <var name="dX" value="20.500000"/>
+            <var name="dY" value="10.000000"/>
+            <var name="dZ" value="20.000000"/>
+            <var name="kX" value="4.000000"/>
+            <var name="kY" value="4.000000"/>
+            <var name="kZ" value="1.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R^N/((kY*(cos(a)*y-sin(a)*(cos(b)*x-sin(b)*z))-dY)^N+(kX*(sin(a)*y+cos(a)*(cos(b)*x-sin(b)*z))-dX)^N+(kZ*(sin(b)*x+cos(b)*z)-dZ)^N)">
+            <var name="N" value="2.000000"/>
+            <var name="R" value="23.000000"/>
+            <var name="a" value="1.200000"/>
+            <var name="b" value="-1.200000"/>
+            <var name="dX" value="-25.500000"/>
+            <var name="dY" value="50.000000"/>
+            <var name="dZ" value="13.000000"/>
+            <var name="kX" value="4.000000"/>
+            <var name="kY" value="4.000000"/>
+            <var name="kZ" value="1.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="3.500000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="11.000000"/>
+            <var name="dZ" value="15.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="9.000000"/>
+            <var name="dX" value="8.000000"/>
+            <var name="dY" value="2.000000"/>
+            <var name="dZ" value="0.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="20.000000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="2.500000"/>
+            <var name="dZ" value="-50.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="R/sqrt((x-dX)^2.000+(y-dY)^2.000+(z-dZ)^2.000)">
+            <var name="R" value="7.000000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="4.000000"/>
+            <var name="dZ" value="-30.000000"/>
+        </meta-object>
+    </field>
+</document>

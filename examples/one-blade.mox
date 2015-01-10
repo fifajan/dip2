@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view dimX="50" dimY="50" dimZ="50" rotX="27" rotY="0" rotZ="0" scaleMult="0.2500" scale="2" isoMult="0.2000" iso="2" axises="true" mode="edges"/>
+    <field>
+        <meta-object type="expression" value="R^N/((kX*(cos(a)*x-sin(a)*(cos(b)*y-sin(b)*z))-dX)^N+(kY*(sin(a)*x+cos(a)*(cos(b)*y-sin(b)*z))-dY)^N+(kZ*(sin(b)*y+cos(b)*z)-dZ)^N)">
+            <var name="N" value="4.000000"/>
+            <var name="R" value="7.000000"/>
+            <var name="a" value="0.600000"/>
+            <var name="b" value="1.250000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="0.000000"/>
+            <var name="dZ" value="14.000000"/>
+            <var name="kX" value="1.000000"/>
+            <var name="kY" value="7.000000"/>
+            <var name="kZ" value="0.450000"/>
+        </meta-object>
+    </field>
+</document>

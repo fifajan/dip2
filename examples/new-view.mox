@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view>
+        <grid dimX="18" dimY="18" dimZ="18" isoMult="0.2500" iso="8"/>
+        <camera rotX="0" rotY="0" rotZ="0" scaleMult="0.2500" scale="4"/>
+        <display axises="true" polygonMode="faces" normalMode="flat"/>
+        <colors background="#333366" light1="#bfffff" light2="#bfffff"/>
+    </view>
+    <field/>
+</document>

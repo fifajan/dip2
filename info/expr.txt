@@ -1,0 +1,34 @@
+GRID_DIM = 30
+
+##### meta-elliptic-cylinder - мета-эллиптический цилиндр
+RX*(x-dX)^2+RY*(y-dY)^2
+RX = 0.05
+RY = 0.02
+
+##### fast (square) meta-sphere - быстрая (кадратичная) мета-сфера
+R2/((x-dX)^2+(y-dY)^2+(z-dZ)^2)
+R = 500
+
+##### meta-sphere - мета-сфера
+R/sqrt((x-dX)^2+(y-dY)^2+(z-dZ)^2)
+R = 50
+
+##### meta-octahedron - мета-октаедр
+R/(abs(x-dX)+abs(y-dY)+abs(z-dZ))
+R = 50
+
+##### meta-costate-ellipsoid - мета-ребоистый эллипсоид
+(A*sin(B*x)^2+1)*R/sqrt((.7*x-dX)^2+(y-dY)^2+(z-dZ)^2)
+A = 0.2
+B = 1.15
+R = 50
+
+##### meta-valve - мета-вентель :)
+R*(2*((z-dZ)^2/((x-dX)^2+(y-dY)^2+(z-dZ)^2))-1)*(1-2*((y-dY)^2/((x-dX)^2+(y-dY)^2+(z-dZ)^2)))/sqrt((x-dX)^2+(y-dY)^2+(z-dZ)^2)
+GRID_DIM = 35
+R = 60
+
+##### meta-bunny - мета-кролик :)
+R*(4*(z/sqrt(x^2+y^2+z^2))^3+3*(z/sqrt(x^2+y^2+z^2)))*(4*sqrt(1-(y^2/(x^2+y^2+z^2)))^3-3*sqrt(1-(y^2/(x^2+y^2+z^2))))/sqrt(x^2+y^2+z^2)
+R = 40
+

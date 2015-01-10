@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="document" type="document"/>
+	<xs:complexType name="document">
+		<xs:sequence>
+			<xs:element name="view" type="view" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="field" type="field" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="type" type="xs:token"/>
+		<xs:attribute name="name" type="xs:string"/>
+	</xs:complexType>
+  <xs:complexType name="view">
+    <xs:sequence>
+      <xs:element name="grid" type="grid" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="camera" type="camera" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="display" type="display" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="colors" type="colors" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+	</xs:complexType>
+  <xs:complexType name="grid">
+	  <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="dimX" type="gridSideDimention"/>
+        <xs:attribute name="dimY" type="gridSideDimention"/>
+        <xs:attribute name="dimZ" type="gridSideDimention"/>
+        <xs:attribute name="isoMult" type="scaleMultipier"/>
+        <xs:attribute name="iso" type="scaleValue"/>
+      </xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+  <xs:complexType name="camera">
+	  <xs:simpleContent>
+      <xs:extension base="xs:string">
+				<xs:attribute name="rotX" type="rotationAngle"/>
+				<xs:attribute name="rotY" type="rotationAngle"/>
+				<xs:attribute name="rotZ" type="rotationAngle"/>
+				<xs:attribute name="scaleMult" type="scaleMultipier"/>
+				<xs:attribute name="scale" type="scaleValue"/>
+      </xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+  <xs:complexType name="display">
+	  <xs:simpleContent>
+      <xs:extension base="xs:string">
+				<xs:attribute name="axises" type="xs:boolean"/>
+				<xs:attribute name="polygonMode" type="polygonMode"/>
+				<xs:attribute name="normalMode" type="normalMode"/>
+      </xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+  <xs:complexType name="colors">
+	  <xs:simpleContent>
+      <xs:extension base="xs:string">
+				<xs:attribute name="background" type="hexColor"/>
+				<xs:attribute name="light1" type="hexColor"/>
+				<xs:attribute name="light2" type="hexColor"/>
+      </xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+  <xs:simpleType name="gridSideDimention">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="10"/>
+			<xs:maxInclusive value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="rotationAngle">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="359"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="scaleMultipier">
+		<xs:restriction base="xs:float">
+			<xs:minInclusive value="0.01"/>
+			<xs:maxInclusive value="10.0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="scaleValue">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:maxInclusive value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+  <xs:simpleType name="polygonMode">
+		<xs:restriction base="xs:Name">
+		  <xs:enumeration value="faces"/>
+      <xs:enumeration value="edges"/>
+		</xs:restriction>
+	</xs:simpleType>
+  <xs:simpleType name="normalMode">
+		<xs:restriction base="xs:Name">
+		  <xs:enumeration value="flat"/>
+      <xs:enumeration value="smooth"/>
+		</xs:restriction>
+	</xs:simpleType>
+  <xs:simpleType name="hexColor">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z]+|#[0-9A-Fa-f]{3}|#[0-9A-Fa-f]{6}"/>
+    </xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="field">
+	  <xs:sequence>
+	    <xs:element name="meta-object" type="metaObject" minOccurs="0" maxOccurs="unbounded"/>
+	  </xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="metaObject">
+    <xs:sequence>
+	    <xs:element name="var" type="variable" minOccurs="0" maxOccurs="unbounded"/>
+	  </xs:sequence>
+	  <xs:attribute name="type" type="xs:Name" use="required"/>
+	  <xs:attribute name="value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="variable">
+	  <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="name" type="xs:Name" use="required"/>
+        <xs:attribute name="value" type="xs:float" use="required"/>
+        <xs:attribute name="min" type="xs:float"/>
+        <xs:attribute name="max" type="xs:float"/>
+      </xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

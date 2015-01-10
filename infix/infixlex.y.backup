@@ -1,0 +1,56 @@
+%{
+#include <math.h>  /* For math functions, cos(), sin(), etc.  */
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+#include "infixlex_types.h"
+
+#define YYSTYPE Token*
+
+Token tokens[1024];
+unsigned int tokenCount = 0;
+
+char *input = NULL;
+
+char errorFlag = 0;
+char errorMsgBuffer[256];
+
+int yylex (void);
+void yyerror (char const *);
+//void printTokens();
+
+//returns -1 if error ocured, errox message will be in errString
+int parse(char *string, Token **outTokens, char **errString);
+
+%}
+%token NUM        /* Simple double precision number.  */
+%token VAR FNCT   /* Variable and Function.  */
+
+%right '='
+%left '-' '+'
+%left '*' '/'
+%left NEG     /* negation--unary minus */
+%right '^'    /* exponentiation */
+%% /* The grammar follows.  */
+
+line: 	  exp 	{ /*printTokens();*/ }
+
+exp:      NUM                { ; }
+        | VAR                { ; }
+        | VAR '=' exp        { ; }
+        | VAR '(' exp ')'    { ; }
+        | exp '+' exp        { ; }
+        | exp '-' exp        { ; }
+        | exp '*' exp        { ; }
+        | exp '/' exp        { ; }
+        | '-' exp  %prec NEG { $1->oper = '$'; }
+        | exp '^' exp        { ; }
+        | '(' exp ')'        { ; }
+;
+
+/* End of grammar.  */
+%%
+
+#include "infixlex_funcs.c"

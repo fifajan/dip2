@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view>
+        <grid dimX="85" dimY="85" dimZ="85" isoMult="0.2500" iso="5"/>
+        <camera rotX="12" rotY="0" rotZ="18" scaleMult="0.2500" scale="2"/>
+        <display axises="true" polygonMode="faces" normalMode="smooth"/>
+        <colors background="#121224" light1="#ffff00" light2="#ffff00"/>
+    </view>
+    <field>
+        <meta-object type="expression" value="k*x*y*z/(y^2.000*z^2.000+z^2.000*x^2.000+x^2.000*y^2.000)">
+            <var name="k" value="20.000000"/>
+        </meta-object>
+    </field>
+</document>

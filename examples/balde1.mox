@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="meta-objects" name="not-used">
+    <view dimX="35" rotX="0" rotY="0" rotZ="62" scaleMult="0.2500" scale="2" isoMult="0.2500" iso="4" axises="true" mode="edges"/>
+    <field>
+        <meta-object type="expression" value="R^2.000/((kX*x)^2.000+(kY*y)^2.000)">
+            <var name="R" value="20.000000"/>
+            <var name="kX" value="1.000000"/>
+            <var name="kY" value="4.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="-(R^2.000/((kX*x-dX)^2.000+(kY*y-dY)^2.000))">
+            <var name="R" value="12.000000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="2.000000"/>
+            <var name="kX" value="1.000000"/>
+            <var name="kY" value="4.000000"/>
+        </meta-object>
+        <meta-object type="expression" value="-(R^2.000/((kX*x-dX)^2.000+(kY*y-dY)^2.000))">
+            <var name="R" value="8.000000"/>
+            <var name="dX" value="0.000000"/>
+            <var name="dY" value="3.000000"/>
+            <var name="kX" value="1.000000"/>
+            <var name="kY" value="4.000000"/>
+        </meta-object>
+    </field>
+</document>
