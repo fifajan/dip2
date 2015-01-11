@@ -1,10 +1,10 @@
 # dip2
 3D Meta-Object-based Modelling System (Qt4 powered)
 
-Hello to you!
+Hello!
 
 BRIEF PROJECT INFO:<br />
-This is my university masters degree diploma project **(2010)**.<br />
+This is my university masters degree diploma project **([dissertation abstract](https://raw.githubusercontent.com/fifajan/dip2/master/abstract.pdf?raw=true), 2010)**.<br />
 GUI is currently only in russian (sorry). Everything else (code & comments, etc) is in english.
 
 Please find build & usage info below following pictures.
@@ -36,6 +36,6 @@ $ xmllint --schema xml/doc.xsd file.mox
 6. Do whatever you want with the app.
 7. Try to crash the app somehow :).
 
-Than you for helping.
+Thank you for helping.
 
 God bless you!
