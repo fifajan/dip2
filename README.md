@@ -5,7 +5,12 @@ Hello to you!
 
 BRIEF PROJECT INFO:<br />
 This is my university masters degree diploma project **(2010)**.<br />
-GUI is currentlu only in russian (sorry). Everytjing else (comments etc) is in english.
+GUI is currently only in russian (sorry). Everything else (code & comments, etc) is in english.
+
+Please find build & usage info below following pictures.
+
+![Screenshot](https://raw.githubusercontent.com/fifajan/dip2/master/screen.png?raw=true "Screenshot")
+![Surfaces examples](https://raw.githubusercontent.com/fifajan/dip2/master/surfaces.png?raw=true "Surfaces examples")
 
 To build the project act as following:
 
