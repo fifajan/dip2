@@ -34,7 +34,7 @@ $ xmllint --schema xml/doc.xsd file.mox
 6. Do whatever you want with the app.
 7. Try to crash the app somehow :).
 
-Than you for helping.
+Thank you for helping.
 
 God bless you!
 
