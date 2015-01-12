@@ -21,7 +21,14 @@ $ cd ..<br />
 $ qmake-qt4<br />
 $ make<br />
 
+
 To run the app:
+
+$ ./dip2
+
+Hope this unfinished GUI will be intuitively clear.
+
+To test app following my plan (you probably will not do so :) ) please act as following:
 
 1. Play with program controls not touching Open/Save dialogs.
 2. Add some meta-objects and play with variables and camera (see file info/expr.txt for meta-object examples).
