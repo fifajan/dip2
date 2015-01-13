@@ -9,6 +9,7 @@ GUI is currently only in russian (sorry). Everything else (code & comments, etc)
 
 Please find build & usage info below following pictures.
 
+![Screenshot](https://raw.githubusercontent.com/fifajan/dip2/master/screen1.png?raw=true "Screenshot")
 ![Screenshot](https://raw.githubusercontent.com/fifajan/dip2/master/screen.png?raw=true "Screenshot")
 ![Surfaces examples](https://raw.githubusercontent.com/fifajan/dip2/master/surfaces.png?raw=true "Surfaces examples")
 
